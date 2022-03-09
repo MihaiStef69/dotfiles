@@ -1,6 +1,7 @@
 #!/bin/sh
 
-sh ~/.config/dwm/scripts/dwm-status.sh &
+#start dwmblocks
+dwmblocks &
 
 #load xresources
 xrdb ~/.config/x11/xresources &
