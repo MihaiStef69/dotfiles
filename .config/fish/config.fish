@@ -18,5 +18,6 @@ alias cf="cd ~/.config"
 alias sc="cd ~/.local/bin"
 alias h="cd ~/"
 alias pacman="sudo pacman"
+starship init fish | source
 end
 
