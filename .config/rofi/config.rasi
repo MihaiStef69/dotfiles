@@ -1,0 +1,12 @@
+/* import block */
+@theme "nord.rasi"
+
+configuration {
+  display-drun: "";
+  display-window: " : ";
+  drun-display-format: "{name}";
+  font: "Iosevka 10";
+  modi: "drun";
+  icon-theme: "Papirus-Dark";
+}
+
