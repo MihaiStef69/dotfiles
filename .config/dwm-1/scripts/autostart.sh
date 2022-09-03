@@ -16,7 +16,7 @@ pulseaudio &
 #/usr/bin/pipewire-media-session &
 
 #set wallpaper
-feh --bg-fill  /home/mihai/wallpapers/wallpaper.jpg &
+feh --bg-fill  /home/mihai/wallpapers/the-great-wave.png &
 
 #start dwm
 dwm
