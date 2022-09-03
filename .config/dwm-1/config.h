@@ -238,7 +238,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_f,          fullscreen,             {0} },
 	{ MODKEY|Mod1Mask,              XK_0,          togglegaps,             {0} },
 	{ MODKEY|Mod1Mask|ShiftMask,    XK_0,          defaultgaps,            {0} },
-	{ MODKEY,			XK_w,		spawn,		SHCMD("brave") },
+	{ MODKEY,			XK_w,		spawn,		SHCMD("brave-browser-stable") },
 	{ MODKEY,                       XK_Tab,        view,                   {0} },
 	{ MODKEY|ControlMask,           XK_z,          showhideclient,         {0} },
 	{ MODKEY|ShiftMask,             XK_q,          killclient,             {0} },
