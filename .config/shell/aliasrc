@@ -1,0 +1,17 @@
+alias l="ls --color=auto"
+alias la="ls -lah --color=auto"
+alias p="sudo poweroff"
+set PATH $PATH:$HOME/git/scripts
+set PATH $PATH:$HOME/.local/bin
+alias v="nvim"
+alias i="sudo xbps-install"
+alias u="sudo xbps-remove"
+alias q="sudo xbps-query"
+alias xdeb="xdeb -Sde"
+alias xdebi="sudo xbps-install -R binpkgs"
+alias cf="cd ~/.config"
+alias sc="cd ~/.local/bin"
+alias h="cd ~/"
+alias pacman="sudo pacman"
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+alias dots='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
